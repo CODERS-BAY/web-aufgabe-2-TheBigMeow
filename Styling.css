@@ -1,0 +1,150 @@
+body {
+    background-color: 		#17598b;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h1 {
+    margin: 10px;
+    background-color: white;
+    color: 	#cd2626;
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+
+.OnePiece {
+   display: block;
+   width: 50%;
+   margin: 20px;
+   line-height: 20px;
+   text-align: justify;
+}
+
+
+.customheader{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.background-eoda {
+    background-image: url('Bilder/eoda.jpg');
+}
+
+.background-sunny {
+    background-image: url('Bilder/sunny.jpg');
+}
+
+.background-Strohhut {
+    background-image: url('Bilder/Strohhut.jpg');
+}
+.background-teufel {
+    background-image: url('Bilder/teufel.jpg');
+}
+
+@media screen and (max-width: 720px) {
+    .row {
+        display: block;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .OnePiece {
+        width: 100%;
+     }
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.centerone {
+    display: block;
+    margin-left: 15%;
+
+}
+
+.centeronehalf {
+    display: block;
+    margin-left: 25%;
+}
+.centeronehalftwo {
+    display: block;
+    margin-left: 5%;
+}
+
+.centertwo {
+    display: block; 
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.centerthree {
+    display: block;
+    margin-right: 10px;
+    margin-left: 15% ;
+}
+
+.shadow {
+    box-shadow: 10px 5px 10px black;
+    border-radius: 10px;
+
+}
+    
+.rund {
+    object-fit: cover;
+    object-position: 100% 0;
+    border-radius: 100%;
+    width: 15em;
+    height: 15em;
+   }
+  
+.crewpic {
+    height: 260px;
+    width: 180px;
+    
+}
+.crewform {
+    margin: 50px 70px;
+}
+
+.centercrew {
+    display: block;
+    text-align: center;
+}
+
+.Navigation ul {
+    background-color: 	#cd2626;
+    margin: 0;
+    padding: 15px;
+    color: white;
+}
+
+.Navigation ul li {
+ display: inline;
+margin: 10px;
+font-size: 20px;
+text-decoration: none;
+}
+
+.Navigation ul li a {
+
+   text-decoration: none;
+   }
+
+   .footer{
+       text-align: center;
+   }
+
